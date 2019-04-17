@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SignIn</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="./feedBack.js"></script>
+	</head>
+	</body>
+		<form id="feedBackForm" action="./FeedBackPage.html" onsubmit="return validateUser();" method="get">
+			<h2>Welcome! Feed Back Form</h2>
+			<h3>Enter userName :</h3><br>
+			<input type="text" id="username" name="username"><br>
+   			<h3>Enter password: </h3><br>
+			<input type="text" id="password" name"password"><br><br>
+			<button type="submit" id="submit" name="submit">Submit</button>
+			<button type="reset" onclick="resetForm();">Reset</button><br><br>
+		</form>
+		<div id="errorMsg">
+			<p id="errorMsg"></p>
+		</div>
+	</body>
+</html>

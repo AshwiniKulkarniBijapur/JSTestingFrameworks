@@ -1,0 +1,8 @@
+multiple page navigation > research
+
+rails and Qunit: does it work
+
+modify src code
+Qunit.parameterize
+
+Qunit  module changes and enum for operations
